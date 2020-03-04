@@ -1,3 +1,14 @@
+language: node_js
+node_js:
+  - '10'
+before_install:
+  - composer config --global github-oauth.github.com "$GITHUB_TOKEN"
+install:
+  - yarn
+test: true
+script:
+  - yarn docs:build
+  - cp -r ./.docz/dist/* .
 deploy:
   provider: pages
   skip_cleanup: true
