@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/branch/',
+    base: '/',
     port: 8081,
     title: '老秦',
     description: '老秦',
