@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/qzy.github.io/gh-pages/',
+    base: '/',
     port: 8081,
     title: '老秦',
     description: '老秦',
