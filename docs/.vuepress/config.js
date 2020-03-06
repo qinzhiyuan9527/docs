@@ -29,7 +29,7 @@ module.exports = {
         // 默认为 "Edit this page"
         editLinkText: '在 GitHub 上编辑此页',
         nav: [
-            { text: '文章', link: '/article/user' },
+            { text: '文章', link: '/article/' },
             { text: 'Guide', link: '/guide/' },
             { text: 'GitHub', link: 'https://github.com/qinzhiyuan9527/docs' },
             { text: '语雀', link: 'https://www.yuque.com/qinchuyia/sysshk' }
@@ -40,7 +40,7 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 sidebarDepth: 2,    // 可选的, 默认值是 1
                 children: [
-                    '/article/user',
+                    '/article/',
                 ]
             },
             {
