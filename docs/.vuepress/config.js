@@ -1,5 +1,6 @@
 module.exports = {
-    base: '/docs/',
+    // base: '/docs/',
+    base: '/',
     port: 8081,
     title: '老秦',
     description: '老秦',
