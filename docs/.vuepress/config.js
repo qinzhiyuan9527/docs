@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/gh-pages/',
+    base: '/docs/',
     port: 8081,
     title: '老秦',
     description: '老秦',
@@ -13,7 +13,7 @@ module.exports = {
         logo: '/image/haha.jpg',
         lastUpdated: '上次更新时间', // 最后更新时间
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
-        repo: 'qinzhiyuan9527/qinzhiyuan9527.github.io',
+        repo: 'qinzhiyuan9527/docs',
         // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
         // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
         repoLabel: '查看源码',
@@ -28,7 +28,7 @@ module.exports = {
         nav: [
             { text: '文章', link: '/article/user' },
             { text: 'Guide', link: '/guide/' },
-            { text: 'GitHub', link: 'https://github.com/qinzhiyuan9527/qinzhiyuan9527.github.io' },
+            { text: 'GitHub', link: 'https://github.com/qinzhiyuan9527/docs' },
             { text: '语雀', link: 'https://www.yuque.com/qinchuyia/sysshk' }
         ],
         sidebar: [
