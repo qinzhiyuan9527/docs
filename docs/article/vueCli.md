@@ -37,12 +37,19 @@ yarn --version
 vue create hello-world
 ```
 #### 输入命令之后会看到
-![1](/image/Snipaste1.png)
+
+<br />
+<img :src="$withBase('/image/Snipaste1.png')" alt="1">
+
+
 #### 这里我选择的手动设置 `Manually select features`
 - `default (babel, eslint)` 默认配置，提供babel和eslint支持
 - `Manually select features` 自定义选择需要的功能，提供更多的特性选择。
 #### 下一步
-![2](/image/Snipaste3.png)
+
+<br />
+<img :src="$withBase('/image/Snipaste3.png')" alt="2">
+
 ##### 上图中每一项的含义
  - TypeScript 支持使用 TypeScript 编写程序
  - Progressive Web App (PWA) Support PWA 支持，一般PC端是用不到。
@@ -63,29 +70,43 @@ vue create hello-world
 这里要注意 `history` 模式是需要后台支持的，如果后台没有正确的配置，当用户在浏览器直接访问时就会返回 404。
 [官方说明](https://router.vuejs.org/zh/guide/essentials/history-mode.html) :tada:
 :::
-![3](/image/Snipaste4.png)
+
+<br />
+<img :src="$withBase('/image/Snipaste4.png')" alt="3">
+
 #### 下一步
 ::: tip 提示
 这里按照你习惯选择就好
 :::
-![4](/image/Snipaste5.png)
+
+<br />
+<img :src="$withBase('/image/Snipaste5.png')" alt="4">
+
 #### 下一步
 >这里是选择代码规范
 ::: tip 提示
 这个也是看个人习惯选择，还有就是团队里选用的是那种代码规范
 :::
-![5](/image/Snipaste6.png)
+<br />
+<img :src="$withBase('/image/Snipaste6.png')" alt="5">
+
 #### 下一步
 ::: tip 提示
 如果规范报错了可以在[ESlint-规则](https://cn.eslint.org/docs/rules/)看你的代码不符合什么规范，
 <!-- 两个都可以选择上哦 -->
 :::
-![6](/image/Snipaste7.png)
+
+<br />
+<img :src="$withBase('/image/Snipaste7.png')" alt="6">
+
 - `Lint on save` 选项 选项是是在你写完代码按保存后 `ESlint` 就会检查你写的代码是否符合规范
 - `Lint and fix on commit` 选项是在你 ` fix 和 commit` 时检查，如果不符合规范就会报提示的哦
 ::: danger 注意
 如果不符合规范后会报错比如图上圈起来的，这时候可以在[ESlint-规则](https://cn.eslint.org/docs/rules/)里查看是违反里什么规范，可以`Ctrl+f`快速查找 'key-spacing'
-![7](/image/Snipaste8.png)
+
+<br />
+<img :src="$withBase('/image/Snipaste8.png')" alt="73">
+
 :::
 #### 下一步
 ::: tip 提示
@@ -94,7 +115,9 @@ vue create hello-world
 - `In dedicated config files` 是放在独立的文件里放置
 - `In package.json` 是放package.json里
 
-![8](/image/Snipaste9.png)
+<br />
+<img :src="$withBase('/image/Snipaste9.png')" alt="8">
+
 ::: tip 提示
 这里我选择的是 `In dedicated config files` 
 :::
@@ -109,7 +132,10 @@ vue create hello-world
 
 图中第一项如果选择不保存的话，就会直接下载了
 :::
-![9](/image/Snipaste10.png)
+
+<br />
+<img :src="$withBase('/image/Snipaste10.png')" alt="9">
+
 ::: tip 提示
 如果下一次创建项目使用之前保存的预配置的话，可能会没有安装依赖，这个时候可以进入项目在命令行输入
 ``` sh
@@ -118,7 +144,9 @@ npm i
 ```
 :::
 #### 下载好之后
-![10](/image/Snipaste11.png)
+
+<br />
+<img :src="$withBase('/image/Snipaste11.png')" alt="10">
 
 #### 可以在命令行输入
 ``` sh
@@ -128,6 +156,11 @@ cd hello-world
 npm run serve
 ```
 #### 下图就是是启动成功了
-![11](/image/Snipaste13.png)
+
+<br />
+<img :src="$withBase('/image/Snipaste13.png')" alt="11">
+
 #### 然后在浏览器[输入地址](http://localhost:8080/)就可以看到下图
-![12](/image/Snipaste12.png)
+
+<br />
+<img :src="$withBase('/image/Snipaste12.png')" alt="12">

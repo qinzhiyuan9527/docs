@@ -19,6 +19,8 @@ module.exports = {
         repoLabel: '查看源码',
 
         // 以下为可选的编辑链接选项
+        // 假如文档不是放在仓库的根目录下：
+        docsDir: 'docs',
         // 假如文档放在一个特定的分支下：
         docsBranch: 'master',
         // 默认是 false, 设置为 true 来启用
