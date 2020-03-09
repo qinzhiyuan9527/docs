@@ -44,12 +44,25 @@ module.exports = {
                 ]
             },
             {
-                title: '学习Vue',
+                title: 'Vue全家桶',
                 collapsable: false,
                 sidebarDepth: 2,
                 children: [
-                    '/article/vueCli', // /vue/就相当于 /vue/README.md .md 可以省略
+                    'article/vueJs',
+                    '/article/vueCli',
                     '/article/vueRouter',
+                    '/article/vueX',
+                    '/article/tongXin',
+                    '/article/VuePress'
+                ]
+            },
+            {
+                title: 'H5新特性',
+                collapsable: false,
+                sidebarDepth: 2,
+                children: [
+                    '/article/canvas',
+                    '/article/svg'
                 ]
             }
         ]
