@@ -48,12 +48,14 @@ module.exports = {
                 collapsable: false,
                 sidebarDepth: 2,
                 children: [
-                    'article/vueJs',
+                    'article/Vue',
                     '/article/vueCli',
                     '/article/vueRouter',
-                    '/article/vueX',
+                    '/article/Vuex',
                     '/article/tongXin',
-                    '/article/VuePress'
+                    '/article/VuePress',
+                    '/article/Emoji',
+                    '/article/axios'
                 ]
             },
             {
