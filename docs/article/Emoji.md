@@ -1,202 +1,220 @@
 # VuePress里的Emoji（小图标）
-  100 -> :100:
-  "1234": "🔢",
-  "grinning": "😀",
-  "smiley": "😃",
-  "smile": "😄",
-  "grin": "😁",
-  "laughing": "😆",
-  "satisfied": "😆",
-  "sweat_smile": "😅",
-  "joy": "😂",
-  "rofl": "🤣",
-  "relaxed": "☺️",
-  "blush": "😊",
-  "innocent": "😇",
-  "slightly_smiling_face": "🙂",
-  "upside_down_face": "🙃",
-  "wink": "😉",
-  "relieved": "😌",
-  "heart_eyes": "😍",
-  "kissing_heart": "😘",
-  "kissing": "😗",
-  "kissing_smiling_eyes": "😙",
-  "kissing_closed_eyes": "😚",
-  "yum": "😋",
-  "stuck_out_tongue_winking_eye": "😜",
-  "stuck_out_tongue_closed_eyes": "😝",
-  "stuck_out_tongue": "😛",
-  "money_mouth_face": "🤑",
-  "hugs": "🤗",
-  "nerd_face": "🤓",
-  "sunglasses": "😎",
-  "clown_face": "🤡",
-  "cowboy_hat_face": "🤠",
-  "smirk": "😏",
-  "unamused": "😒",
-  "disappointed": "😞",
-  "pensive": "😔",
-  "worried": "😟",
-  "confused": "😕",
-  "slightly_frowning_face": "🙁",
-  "frowning_face": "☹️",
-  "persevere": "😣",
-  "confounded": "😖",
-  "tired_face": "😫",
-  "weary": "😩",
-  "triumph": "😤",
-  "angry": "😠",
-  "rage": "😡",
-  "pout": "😡",
-  "no_mouth": "😶",
-  "neutral_face": "😐",
-  "expressionless": "😑",
-  "hushed": "😯",
-  "frowning": "😦",
-  "anguished": "😧",
-  "open_mouth": "😮",
-  "astonished": "😲",
-  "dizzy_face": "😵",
-  "flushed": "😳",
-  "scream": "😱",
-  "fearful": "😨",
-  "cold_sweat": "😰",
-  "cry": "😢",
-  "disappointed_relieved": "😥",
-  "drooling_face": "🤤",
-  "sob": "😭",
-  "sweat": "😓",
-  "sleepy": "😪",
-  "sleeping": "😴",
-  "roll_eyes": "🙄",
-  "thinking": "🤔",
-  "lying_face": "🤥",
-  "grimacing": "😬",
-  "zipper_mouth_face": "🤐",
-  "nauseated_face": "🤢",
-  "sneezing_face": "🤧",
-  "mask": "😷",
-  "face_with_thermometer": "🤒",
-  "face_with_head_bandage": "🤕",
-  "smiling_imp": "😈",
-  "imp": "👿",
-  "japanese_ogre": "👹",
-  "japanese_goblin": "👺",
-  "hankey": "💩",
-  "poop": "💩",
-  "shit": "💩",
-  "ghost": "👻",
-  "skull": "💀",
-  "skull_and_crossbones": "☠️",
-  "alien": "👽",
-  "space_invader": "👾",
-  "robot": "🤖",
-  "jack_o_lantern": "🎃",
-  "smiley_cat": "😺",
-  "smile_cat": "😸",
-  "joy_cat": "😹",
-  "heart_eyes_cat": "😻",
-  "smirk_cat": "😼",
-  "kissing_cat": "😽",
-  "scream_cat": "🙀",
-  "crying_cat_face": "😿",
-  "pouting_cat": "😾",
-  "open_hands": "👐",
-  "raised_hands": "🙌",
-  "clap": "👏",
-  "pray": "🙏",
-  "handshake": "🤝",
-  "+1": "👍",
-  "thumbsup": "👍",
-  "-1": "👎",
-  "thumbsdown": "👎",
-  "fist_oncoming": "👊",
-  "facepunch": "👊",
-  "punch": "👊",
-  "fist_raised": "✊",
-  "fist": "✊",
-  "fist_left": "🤛",
-  "fist_right": "🤜",
-  "crossed_fingers": "🤞",
-  "v": "✌️",
-  "metal": "🤘",
-  "ok_hand": "👌",
-  "point_left": "👈",
-  "point_right": "👉",
-  "point_up_2": "👆",
-  "point_down": "👇",
-  "point_up": "☝️",
-  "hand": "✋",
-  "raised_hand": "✋",
-  "raised_back_of_hand": "🤚",
-  "raised_hand_with_fingers_splayed": "🖐",
-  "vulcan_salute": "🖖",
-  "wave": "👋",
-  "call_me_hand": "🤙",
-  "muscle": "💪",
-  "middle_finger": "🖕",
-  "fu": "🖕",
-  "writing_hand": "✍️",
-  "selfie": "🤳",
-  "nail_care": "💅",
-  "ring": "💍",
-  "lipstick": "💄",
-  "kiss": "💋",
-  "lips": "👄",
-  "tongue": "👅",
-  "ear": "👂",
-  "nose": "👃",
-  "footprints": "👣",
-  "eye": "👁",
-  "eyes": "👀",
-  "speaking_head": "🗣",
-  "bust_in_silhouette": "👤",
-  "busts_in_silhouette": "👥",
-  "baby": "👶",
-  "boy": "👦",
-  "girl": "👧",
-  "man": "👨",
-  "woman": "👩",
-  "blonde_woman": "👱‍♀",
-  "blonde_man": "👱",
-  "person_with_blond_hair": "👱",
-  "older_man": "👴",
-  "older_woman": "👵",
-  "man_with_gua_pi_mao": "👲",
-  "woman_with_turban": "👳‍♀",
-  "man_with_turban": "👳",
-  "policewoman": "👮‍♀",
-  "policeman": "👮",
-  "cop": "👮",
-  "construction_worker_woman": "👷‍♀",
-  "construction_worker_man": "👷",
-  "construction_worker": "👷",
-  "guardswoman": "💂‍♀",
-  "guardsman": "💂",
-  "female_detective": "🕵️‍♀️",
-  "male_detective": "🕵",
-  "detective": "🕵",
-  "woman_health_worker": "👩‍⚕",
-  "man_health_worker": "👨‍⚕",
-  "woman_farmer": "👩‍🌾",
-  "man_farmer": "👨‍🌾",
-  "woman_cook": "👩‍🍳",
-  "man_cook": "👨‍🍳",
-  "woman_student": "👩‍🎓",
-  "man_student": "👨‍🎓",
-  "woman_singer": "👩‍🎤",
-  "man_singer": "👨‍🎤",
-  "woman_teacher": "👩‍🏫",
-  "man_teacher": "👨‍🏫",
-  "woman_factory_worker": "👩‍🏭",
-  "man_factory_worker": "👨‍🏭",
-  "woman_technologist": "👩‍💻",
-  "man_technologist": "👨‍💻",
-  "woman_office_worker": "👩‍💼",
-  "man_office_worker": "👨‍💼",
-  "woman_mechanic": "👩‍🔧",
-  "man_mechanic": "👨‍🔧",
-  "woman_scientist": "👩‍🔬",
+::: tip 提示
+`Emoji` 图标的用法：`:100:` => :100:
+:::
+  `100` => :100:
+  `1234` => :1234:
+  `grinning` => :grinning:
+  `smiley` => :smiley:
+  `smile` => :smile:
+
+  `grin` => :grin:
+  `laughing` => :laughing:
+  `satisfied` => :satisfied:
+  `sweat_smile` => :sweat_smile:
+  `joy` => :joy:
+
+  `rofl` => :rofl:
+  `relaxed` => :relaxed:
+  `blush` => :blush:
+  `innocent` => :innocent:
+  `slightly_smiling_face` => :slightly_smiling_face:
+  
+  `upside_down_face` => :upside_down_face:
+  `wink` => :wink:
+  `relieved` => :relieved:
+  `heart_eyes` => :heart_eyes:
+
+  `kissing_heart` => :kissing_heart:
+  `kissing` => :kissing:
+  `kissing_smiling_eyes` => :kissing_smiling_eyes:
+  `kissing_closed_eyes` => :kissing_closed_eyes:
+
+  `yum` => :yum:
+  `stuck_out_tongue_winking_eye` => :stuck_out_tongue_winking_eye:
+  `stuck_out_tongue_closed_eyes` => :stuck_out_tongue_closed_eyes:
+
+  `stuck_out_tongue` => :stuck_out_tongue:
+  `money_mouth_face` => :money_mouth_face:
+  `hugs` => :hugs:
+  `nerd_face` => :nerd_face:
+
+  `sunglasses` => :sunglasses:
+  `clown_face` => :clown_face:
+  `cowboy_hat_face` => :cowboy_hat_face:
+  `smirk` => :smirk:
+  `unamused` => :unamused:
+
+  `disappointed` => :disappointed:
+  `pensive` => :pensive:
+  `worried` => :worried:
+  `confused` => :confused:
+
+  `slightly_frowning_face` => :slightly_frowning_face:
+  `frowning_face` => :frowning_face:
+  `persevere` => :persevere:
+  `confounded` => :confounded:
+
+  `tired_face` => :tired_face:
+  `weary` => :weary:
+  `triumph` => triumph::
+  `angry` => :angry:
+  `rage` => :rage:
+  `pout` => :pout:
+
+  `no_mouth` => :no_mouth:
+  `neutral_face` => :neutral_face:
+  `expressionless` => :expressionless:
+  `hushed` => :hushed:
+  `frowning` => :frowning:
+
+  `anguished` => :anguished:
+  `open_mouth` => :open_mouth:
+  `astonished` => :astonished:
+  `dizzy_face` => :dizzy_face:
+  `flushed` => :flushed:
+
+  `scream` => :scream:
+  `fearful` => :fearful:
+  `cold_sweat` => :cold_sweat:
+  `cry` => :cry:
+  `disappointed_relieved` => :disappointed_relieved:
+
+  `drooling_face` => :drooling_face:
+  `sob` => :sob:
+  `sweat` => :sweat:
+  `sleepy` => :sleepy:
+  `sleeping` => :sleeping:
+  
+  "roll_eyes": "🙄"
+  "thinking": "🤔"
+  "lying_face": "🤥"
+  "grimacing": "😬"
+  "zipper_mouth_face": "🤐"
+  "nauseated_face": "🤢"
+  "sneezing_face": "🤧"
+  "mask": "😷"
+  "face_with_thermometer": "🤒"
+  "face_with_head_bandage": "🤕"
+  "smiling_imp": "😈"
+  "imp": "👿"
+  "japanese_ogre": "👹"
+  "japanese_goblin": "👺"
+  "hankey": "💩"
+  "poop": "💩"
+  "shit": "💩"
+  "ghost": "👻"
+  "skull": "💀"
+  "skull_and_crossbones": "☠️"
+  "alien": "👽"
+  "space_invader": "👾"
+  "robot": "🤖"
+  "jack_o_lantern": "🎃"
+  "smiley_cat": "😺"
+  "smile_cat": "😸"
+  "joy_cat": "😹"
+  "heart_eyes_cat": "😻"
+  "smirk_cat": "😼"
+  "kissing_cat": "😽"
+  "scream_cat": "🙀"
+  "crying_cat_face": "😿"
+  "pouting_cat": "😾"
+  "open_hands": "👐"
+  "raised_hands": "🙌"
+  "clap": "👏"
+  "pray": "🙏"
+  "handshake": "🤝"
+  "+1": "👍"
+  "thumbsup": "👍"
+  "-1": "👎"
+  "thumbsdown": "👎"
+  "fist_oncoming": "👊"
+  "facepunch": "👊"
+  "punch": "👊"
+  "fist_raised": "✊"
+  "fist": "✊"
+  "fist_left": "🤛"
+  "fist_right": "🤜"
+  "crossed_fingers": "🤞"
+  "v": "✌️"
+  "metal": "🤘"
+  "ok_hand": "👌"
+  "point_left": "👈"
+  "point_right": "👉"
+  "point_up_2": "👆"
+  "point_down": "👇"
+  "point_up": "☝️"
+  "hand": "✋"
+  "raised_hand": "✋"
+  "raised_back_of_hand": "🤚"
+  "raised_hand_with_fingers_splayed": "🖐"
+  "vulcan_salute": "🖖"
+  "wave": "👋"
+  "call_me_hand": "🤙"
+  "muscle": "💪"
+  "middle_finger": "🖕"
+  "fu": "🖕"
+  "writing_hand": "✍️"
+  "selfie": "🤳"
+  "nail_care": "💅"
+  "ring": "💍"
+  "lipstick": "💄"
+  "kiss": "💋"
+  "lips": "👄"
+  "tongue": "👅"
+  "ear": "👂"
+  "nose": "👃"
+  "footprints": "👣"
+  "eye": "👁"
+  "eyes": "👀"
+  "speaking_head": "🗣"
+  "bust_in_silhouette": "👤"
+  "busts_in_silhouette": "👥"
+  "baby": "👶"
+  "boy": "👦"
+  "girl": "👧"
+  "man": "👨"
+  "woman": "👩"
+  "blonde_woman": "👱‍♀"
+  "blonde_man": "👱"
+  "person_with_blond_hair": "👱"
+  "older_man": "👴"
+  "older_woman": "👵"
+  "man_with_gua_pi_mao": "👲"
+  "woman_with_turban": "👳‍♀"
+  "man_with_turban": "👳"
+  "policewoman": "👮‍♀"
+  "policeman": "👮"
+  "cop": "👮"
+  "construction_worker_woman": "👷‍♀"
+  "construction_worker_man": "👷"
+  "construction_worker": "👷"
+  "guardswoman": "💂‍♀"
+  "guardsman": "💂"
+  "female_detective": "🕵️‍♀️"
+  "male_detective": "🕵"
+  "detective": "🕵"
+  "woman_health_worker": "👩‍⚕"
+  "man_health_worker": "👨‍⚕"
+  "woman_farmer": "👩‍🌾"
+  "man_farmer": "👨‍🌾"
+  "woman_cook": "👩‍🍳"
+  "man_cook": "👨‍🍳"
+  "woman_student": "👩‍🎓"
+  "man_student": "👨‍🎓"
+  "woman_singer": "👩‍🎤"
+  "man_singer": "👨‍🎤"
+  "woman_teacher": "👩‍🏫"
+  "man_teacher": "👨‍🏫"
+  "woman_factory_worker": "👩‍🏭"
+  "man_factory_worker": "👨‍🏭"
+  "woman_technologist": "👩‍💻"
+  "man_technologist": "👨‍💻"
+  "woman_office_worker": "👩‍💼"
+  "man_office_worker": "👨‍💼"
+  "woman_mechanic": "👩‍🔧"
+  "man_mechanic": "👨‍🔧"
+  "woman_scientist": "👩‍🔬"
   "man_scientist": "👨‍🔬",
   "woman_artist": "👩‍🎨",
   "man_artist": "👨‍🎨",
