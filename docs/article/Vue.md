@@ -1,4 +1,7 @@
-# Vue
+---
+title: Vue
+---
+# Vue.js
 ## 计算属性和侦听器
 ### 计算属性
 ::: warning 注意
