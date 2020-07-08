@@ -54,7 +54,6 @@ module.exports = {
                     '/article/Vuex',
                     '/article/tongXin',
                     '/article/VuePress',
-                    '/article/Emoji',
                     '/article/axios'
                 ]
             },
