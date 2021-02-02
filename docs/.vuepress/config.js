@@ -5,11 +5,9 @@ module.exports = {
     title: '老秦',
     description: '老秦',
     markdown: {
-        lineNumbers: false // 每个代码块是否显示行号
+        lineNumbers: false, // 每个代码块是否显示行号
     },
-    head: [
-        ['link', { rel: 'icon', href: '/image/favicon.ico' }]
-    ],
+    head: [['link', { rel: 'icon', href: '/image/favicon.ico' }]],
     themeConfig: {
         logo: '/image/haha.jpg',
         lastUpdated: '上次更新时间', // 最后更新时间
@@ -29,43 +27,27 @@ module.exports = {
         // 默认为 "Edit this page"
         editLinkText: '在 GitHub 上编辑此页',
         nav: [
-            { text: '文章', link: '/article/' },
-            { text: 'Guide', link: '/guide/' },
-            { text: 'GitHub', link: 'https://github.com/qinzhiyuan9527/docs' },
-            { text: '语雀', link: 'https://www.yuque.com/qinchuyia/sysshk' }
+            {
+                text: '学习',
+                items: [
+                    {
+                        text: 'JavaScript',
+                        items: [
+                            { text: 'Vue', link: '/article/VueBy' },
+                            { text: 'ES6', link: '/ES6/array' },
+                        ],
+                    },
+                ],
+            },
+            { text: 'Guide', link: '/guide/guideBy' },
+            { text: 'GitHub', link: 'https://github.com/qinzhiyuan9527' },
+            { text: '语雀', link: 'https://www.yuque.com/qinchuyia/sysshk' },
         ],
-        sidebar: [
-            {
-                title: '面试总结',   // 必要的
-                collapsable: false, // 可选的, 默认值是 true,
-                sidebarDepth: 2,    // 可选的, 默认值是 1
-                children: [
-                    '/article/',
-                ]
-            },
-            {
-                title: 'Vue全家桶',
-                collapsable: false,
-                sidebarDepth: 2,
-                children: [
-                    'article/Vue',
-                    '/article/vueCli',
-                    '/article/vueRouter',
-                    '/article/Vuex',
-                    '/article/tongXin',
-                    '/article/VuePress',
-                    '/article/axios'
-                ]
-            },
-            {
-                title: 'H5新特性',
-                collapsable: false,
-                sidebarDepth: 2,
-                children: [
-                    '/article/canvas',
-                    '/article/svg'
-                ]
-            }
-        ]
-    }
-}
+        sidebar: {
+            '/article/': ['VueBy', 'vueCli', 'vueRouter', 'Vuex', 'tongXin', 'VuePress', 'axios'],
+            '/ES6/': ['array'],
+            '/guide/': ['guideBy'],
+            '/': [''],
+        },
+    },
+};
